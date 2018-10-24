@@ -9,6 +9,7 @@ import {
 export default {
   [RECEIVE_CLASSIFYDATA](state,{category_data}) {
     state.category_data = category_data
+
   },
   [RECEIVE_SHIWUDATA](state,{shiwu_data}) {
     state.shiwu_data = shiwu_data

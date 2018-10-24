@@ -15,14 +15,16 @@
       <li>满88元免包邮</li>
     </ul>
 
-    <div class="cart-img">
-       <div class="cart-imgIcon">
+    <div class="cart-cartImg">
+      <div class="cart-img">
+        <div class="cart-imgIcon">
          <span class="item_icon">
            <i class="iconfont icon-gouwuche1"></i>
          </span>
-       </div>
-       <div class="cart-imgText">去添加点什么吧</div>
-     </div>
+        </div>
+        <div class="cart-imgText">去添加点什么吧</div>
+      </div>
+    </div>
 
     <div class="cart-btn">
       <button class="cart-btnLogin">登录</button>
@@ -66,18 +68,24 @@
         color #7e8c8d
         font-size 12px
         padding-right 40px
-    .cart-img
-      height 150px
-      width 150px
-      .cart-imgIcon
-        height 124px
-        width 124px
-        .iconfont
-          font-size 124px
-          color #7e8c8d
-      .cart-imgText
-        color #ccc
-        font-size 14px
+    .cart-cartImg
+      display flex
+      justify-content center
+      .cart-img
+        height 150px
+        width 150px
+        .cart-imgIcon
+          height 124px
+          width 124px
+          .item_icon
+            display block
+            .iconfont
+              font-size 124px
+              color #7e8c8d
+        .cart-imgText
+          color #ccc
+          font-size 14px
+          margin-left 15px
     .cart-btn
       width 100%
       height 46px
